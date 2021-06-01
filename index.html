@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人简历</title>
+	<style type="">
+		*{
+			list-style: none;
+		}
+		.All{
+			width: 630px;
+			height: 849px;
+			margin: 0 auto;
+			background-color: #1a8fab;
+			padding-top: 3px;
+			padding-left: 3px;
+		}
+		.left{
+			width: 205px;
+			height: 843px;
+			background-color: #f0f0f0;
+			float: left;
+			
+		}
+		.right{
+			width: 422px;
+			height: 843px;
+			background-color: white;
+			float: right;
+			margin-right: 3px;
+		}
+		.A{
+			height: 241px;
+			width: 205px;
+		}
+		.a{
+			width: 150px;
+			height: 150px;
+			background-color: #1a8fab;
+			margin-top: 69px;
+			margin-left: 27px;
+		}
+		.a img{
+			width: 138px;
+			height: 138px;
+			margin-left: 6px;
+			margin-top: 6px;
+		}
+		.b{
+			width: 205px;
+			height: 65px;
+			background-color: #1a8fab;
+			margin-top: 26px;
+		}
+		.b p{
+			height: 20px;
+			text-align: center;
+			color: white;
+			padding-top: 5px;
+			font-size: 24px;
+		}
+		.b span{
+			height: 20px;
+			text-align: center;
+			color: white;
+			font-size: 5px;
+			display: block;
+			margin-top: -10px;
+		}
+		.B{
+			
+			margin-left: 5px;
+			margin-top: 30px;
+		}
+		.B ul{
+			padding-left: 20px;
+		}
+		.B ul li{
+			margin: 15px auto;
+		}
+		.B ul li span{
+			margin-left: 10px;
+			font-size: 5px;
+		}
+		.xian{
+			width: 153px;
+			height: 2px;
+			background-color: #000;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+		.C{
+			margin-top: 30px;
+		}
+		.c{
+			width: 95px;
+			height: 20px;
+			border: #9ba7a3 solid 1px;
+			text-align: center;
+			line-height: 20px;
+			margin: 0 auto;
+			margin-bottom: 25px;
+			font-size: 5px;
+		}
+		.C ul{
+			padding-left: 15px;
+		}
+		.C ul li{
+			list-style: square;
+			margin: 10px 0 10px 35px;
+			color: #1a8fab;
+			font-size: 5px;
+		}
+		.C ul li span{
+			color: #000000;
+		}
+		.E{
+			margin-top: 39px;
+			margin-left: 25px;
+		}
+		.E_top img{
+			width: 23px;
+			height: 23px;
+		}
+		.E_top span{
+			color: #1a8fab;
+		}
+		.E_center{
+			width: 364px;
+			height: 30px;
+			margin-top: -5px;
+		}
+		.E_center ul{
+			padding-left: 5px;
+		}
+		.E_center ul li{
+			float: left;
+		}
+		.E_center ul li span{
+			color: #1a8fab;
+			font-size: 10px;
+			margin-right: 20px;
+		}
+		.E_bottom{
+			height: 90px;
+			width: 364px;
+		}
+		.E_bottom ul{
+			padding-left: 15px;
+			margin-top: -5px;
+		}
+		.E_bottom ul li{
+			list-style: square;
+			font-size: 5px;
+			width: 375px;
+			margin-top: 5px;
+		}
+		.E_bottom ul li span{
+			margin-left: -5px;
+		}
+		.F{
+			margin-top: 20px;
+			margin-left: 15px;
+		}
+		.F_top{
+			height: 24px;
+		}
+		.F_top img{
+			width: 23px;
+			height: 23px;
+		}
+		.F_top span{
+			color: #1a8fab;
+		}
+		.F_left{
+			float: left;
+			padding-left: 7px;
+		}
+		.F_left img{
+			height: 280px;
+		}
+		.F_right{
+			float: right;
+			width: 380px;
+		}
+		.F_right_1{
+			height: 35px;
+		}
+		.F_right_1 ul{
+			padding-left: 2px;
+			margin-top: -2px;
+		}
+		.F_right_1 ul li{
+			float: left;
+			margin-right: 10px;
+		}
+		.F_right_1 ul li span{
+			font-size: 10px;
+			color: #1a8fab;
+		}
+		.F_right_2{
+			height: 105px;
+		}
+		.F_right_2 ul{
+			padding-left: 18px;
+			margin-top: -12px;
+		}
+		.F_right_2 ul li{
+			list-style: square;
+		}
+		.F_right_2 ul li span{
+			font-size: 10px;
+		}
+		.F_right_3{
+			height: 35px;
+		}
+		.F_right_3 ul{
+			padding-left: 2px;
+			margin-top: -15px;
+		}
+		.F_right_3 ul li{
+			float: left;
+			margin-right: 10px;
+		}
+		.F_right_3 ul li span{
+			font-size: 10px;
+			color: #1a8fab;
+		}
+		.F_right_4{
+			height: 120px;
+		}
+		.F_right_4 ul{
+			padding-left: 18px;
+			margin-top: -12px;
+		}
+		.F_right_4 ul li{
+			list-style: square;
+		}
+		.F_right_4 ul li span{
+			font-size: 8px;
+		}
+		.G{
+			margin-top: 295px;
+			margin-left: 13px;
+		}
+		.G_top{
+			height: 24px;
+		}
+		.G_top img{
+			width: 23px;
+			height: 23px;
+		}
+		.G_top span{
+			color: #1a8fab;
+		}
+		.G_left{
+			float: left;
+			height: 100px;
+		}
+		.G_left ul{
+			padding-left: 5px;
+			margin-top: 15px;
+		}
+		.G_left ul li span{
+			color: #1a8fab;
+			font-size: 8px;
+		}
+		.G_right ul li span{
+			font-size: 8px;
+		}
+		.H{
+			margin-top: 20px;
+			margin-left: 13px;
+		}
+		.H_top{
+			height: 24px;
+		}
+		.H_top img{
+			width: 23px;
+			height: 23px;
+		}
+		.H_top span{
+			color: #1a8fab;
+		}
+		.H_bottom{
+			margin-top: 15px;
+			height: 100px;
+			margin-left: 10px;
+		}
+		.H_bottom span{
+			
+			font-size: 8px;
+		}
+	</style>
+</head>
+<body>
+	<div class="All">
+		<div class="left">
+			<div class="A">
+				<div class="a">
+					<img src="2.jpg">
+				</div>
+				<div class="b">
+					<p>蜡笔小新</p>
+					<span>求职意向：动画剪辑</span>
+				</div>
+			</div>
+			<div class="B">
+				<ul>
+					<li><img src="民族.png" alt=""><span>民族 : 汉族</span></li>
+					<li><img src="生日.png" alt=""><span>生日 : 1990.08.18</span></li>
+					<li><img src="籍贯.png" alt=""><span>籍贯 : 广东深圳</span></li>
+					<li><img src="现居.png" alt=""><span>现居 : 北京</span></li>
+					<li><img src="政治面貌.png" alt=""><span>政治面貌 : 中共党员</span></li>
+					<li><img src="电话.png" alt=""><span>电话 : 15031000000</span></li>
+					<li><img src="邮箱.png" alt=""><span>邮箱 : 123456@qq.com</span></li>
+				</ul>
+				<div class="xian"></div>
+			</div>
+			<div class="C">
+				<div class="c">荣 誉 奖 励</div>
+					<ul>
+						<li><span>获得校一等奖奖学金</span></li>
+						<li><span>全国计算机等级三级证书</span></li>
+						<li><span>全国英语六级</span></li>
+						<li><span>获得全国会计资格资质</span></li>
+						<li><span>获得校一等奖奖学金</span></li>
+					</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="E">
+				<div class="E_top">
+					<img src="教育.png">
+					<span>教育背景</span>
+				</div>
+				<div class="E_center">
+					<ul>
+						<li><span>2014.09-2016.06</span></li>
+						<li><span>清华大学</span></li>
+						<li><span>新闻传播学</span></li>
+						<li><span>硕士研究生</span></li>
+					</ul>
+				</div>
+				<div class="E_bottom">
+					<ul>
+						<li><span>2016年获得研究生第一年特等奖学金</span></li>
+						<li><span>2016年11月代表北京大学新闻系参加首页北京地区新闻院系研究生论坛</span></li>
+						<li><span>2016年12月获评研究生毕业论文开题答辩优秀报告人</span></li>
+						<li><span>2016年发表北大中文核心期刊2篇</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="F">
+				<div class="F_top">
+					<img src="工作经验.png">
+					<span>工作经验</span>
+				</div>
+				<div class="F_left">
+					<img src="线.png">
+				</div>
+				<div class="F_right">
+					<div class="F_right_1">
+						<ul>
+							<li><span>2014.5-2015.5</span></li>
+							<li><span>传媒艺术研究</span></li>
+							<li><span>《传媒艺术先锋》</span></li>
+							<li><span>执行主编</span></li>
+						</ul>
+					</div>
+					<div class="F_right_2">
+						<ul>
+							<li><span>2016年获得研究生第一学年特等奖学金</span></li>
+							<li><span>2016年11月代表北京大学新闻系参加首页北京地区新闻院</span></li>
+							<li><span>2016吗、年12月获评研究生毕业论文开题答辩优秀报告人</span></li>
+							<li><span>2016年发表北大中文核心期刊2片</span></li>
+							<li><span>2016年获得研究生第一学年特等奖学金</span></li>
+						</ul>
+					</div>
+					<div class="F_right_3">
+						<ul>
+							<li><span>2014.12-2016.1</span></li>
+							<li><span>马鞍山第一传媒高校</span></li>
+							<li><span>考前冲刺班班主任</span></li>
+						</ul>
+					</div>
+					<div class="F_right_4">
+						<ul>
+							<li><span>策划杂志内容，召开编辑会议，分配工作任务，撰写刊首文</span></li>
+							<li><span>按照时间周期催告，审稿，修改稿件，将完稿交与研究会秘书长审阅</span></li>
+							<li><span>与印刷厂商谈印刷事宜，检查样本，督促印刷厂按时按量完成印刷</span></li>
+							<li><span>策划杂志内容，召开编辑会议，分配工作任务，撰写刊首文</span></li>
+							<li><span>按照时间周期催告，审稿，修改稿件</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="G">
+				<div class="G_top">
+					<img src="民族.png">
+					<span>专业技能</span>
+				</div>
+				<div class="G_left">
+					<ul>
+						<li><span>语言技能：</span></li>
+						<li><span>专业技能：</span></li>
+						<li><span>办公技能：</span></li>
+						<li><span>软件技能：</span></li>
+					</ul>
+				</div>
+				<div class="G_right">
+					<ul>
+						<li><span>英语CET6、德语</span></li>
+						<li><span>熟悉web、ios和Android开发、精通数据库、C++及Java</span></li>
+						<li><span>熟练使用Office办公软件、AXure RP、Visio</span></li>
+						<li><span>熟悉web、ios和Android开发</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="H">
+				<div class="H_top">
+					<img src="评价.png">
+					<span>自我评价</span>
+				</div>
+				<div class="H_bottom">
+					<span>我为人友善、真诚做事细致、专注，有很强的责任心，学习能力与适应能力强，喜欢与他人交谈,热爱生活性格标签是认真,有着沉静内效，善于思考和研究的特质。作为本硕皆为新闻学专业的文科生，与文字为伴多年,文字功底扎实，文字编辑把关、策划能力强。</span>
+				</div>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
